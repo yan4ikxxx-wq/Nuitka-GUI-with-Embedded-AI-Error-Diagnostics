@@ -4,3 +4,14 @@ Copyright 2026 yan4ikxxx-wq
 This product includes software developed by the Apache Software Foundation (Apache 2.0).
 This product contains source code and logic co-developed with Artificial Intelligence models (Google Gemini & DeepSeek).
 This product is compiled using and interfaces with the Nuitka compiler (Apache 2.0).
+
+TRADEMARK & NAMING RESTRICTIONS:
+--------------------------------
+In accordance with Section 6 of the Apache License 2.0, no permission is granted 
+to use the trade names, trademarks, service marks, or product names of the Licensor.
+
+Any derivative works, forks, or modified versions of this software MUST NOT:
+1. Be distributed under the names "Taran Build Master", "Taran", or "Nuitka-GUI-with-Embedded-AI-Error-Diagnostics".
+2. Use the original artwork, logos, or icons (including TARAN.ico) for commercial branding of modified versions without prior written consent.
+
+All modified versions must clearly state that they are altered derivatives of the original "Taran Build Master" project by yan4ikxxx-wq.
