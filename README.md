@@ -16,7 +16,10 @@ Support the project! Give it a ⭐ if you find it useful.
 
 [![Star on GitHub](https://img.shields.io/github/stars/yan4ikxxx-wq/Nuitka-GUI-with-Embedded-AI-Error-Diagnostics?style=social)](https://github.com/yan4ikxxx-wq/Nuitka-GUI-with-Embedded-AI-Error-Diagnostics)
  Key Features
- 
+
+ ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)
+
 Full Nuitka control – Onefile / Standalone, console mode, custom icon, compiler selection (MSVC, MinGW, Auto), LTO, ccache, and more.
 
 Plugin management – Qt, Tkinter, Torch, NumPy.
