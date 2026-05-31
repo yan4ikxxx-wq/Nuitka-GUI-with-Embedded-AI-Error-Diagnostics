@@ -1,6 +1,7 @@
 # Nuitka-GUI-with-Embedded-AI-Error-Diagnostics
 ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)
+[![Nuitka](https://img.shields.io/badge/Nuitka-2.0+-green.svg)](https://nuitka.net/)
 Taran Build Master is a professional desktop application that provides a graphical user interface for compiling Python scripts into standalone Windows executables using Nuitka. It integrates a pre‑trained machine learning model (39 error classes) that automatically detects compilation failures and suggests – or even applies – corrective measures.
 
 "Enjoying this project? Buy me a coffee 🚀"
@@ -22,6 +23,7 @@ Support the project! Give it a ⭐ if you find it useful.
 
  ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)
+[![Nuitka](https://img.shields.io/badge/Nuitka-2.0+-green.svg)](https://nuitka.net/)
 
 Full Nuitka control – Onefile / Standalone, console mode, custom icon, compiler selection (MSVC, MinGW, Auto), LTO, ccache, and more.
 
@@ -45,6 +47,26 @@ Smart log decoding – handles CP1251/CP866 encodings to avoid corrupted UTF‑8
 
 No black console window – final .exe runs as a pure GUI application.
 
+## 💻 OS Compatibility & System Requirements
+
+This application is specifically designed and optimized for the **Windows** ecosystem, as it focuses on generating standalone Windows executables (`.exe`).
+
+## 💻 OS Compatibility & System Requirements
+
+This application is specifically designed and optimized for the **Windows** ecosystem, as it focuses on generating standalone Windows executables (`.exe`).
+
+### ✅ Supported Operating Systems
+- **Windows 11** – fully supported and recommended  
+- **Windows 10** – fully supported  
+- **Windows 8.1 / 8 / 7** – supported when using a compiled `TaranBuildMaster.exe` (or running from source with Python 3.8+ and a compatible C++ compiler)
+
+### 🧱 Target Architecture
+- **64‑bit (x64)** – recommended; the pre‑compiled `TaranBuildMaster.exe` is built for x64.  
+- **32‑bit (x86)** – supported only when running from source using a 32‑bit Python interpreter and a 32‑bit C++ compiler (e.g., MinGW‑w32).
+
+### ⚠️ Important Platform Notes
+- 🐧 **Linux / 🍏 macOS:** The current GUI and compilation pipeline (including Windows‑specific features like *Unicode Path Defender*, system tray integration, `taskkill`, and `--windows-*` Nuitka flags) are **not supported** on Linux or macOS. The tool is intended strictly for Windows deployment.  
+- **Wine:** Running the compiled `.exe` under Wine may work, but it is not tested nor officially supported.
 🚀 Getting Started
 Option 1: Download the compiled executable
 Download the latest TaranBuildMaster.exe from the Releases page.
@@ -147,3 +169,9 @@ Built for Python developers who need a smart, self‑tuning Nuitka frontend.
 ## Development & Acknowledgments
 The source code of this project was co-developed using Google Gemini and DeepSeek AI models to optimize algorithms and streamline logic. 
 The application is compiled into a standalone executable using the Nuitka compiler.
+
+Contributing
+Contributions are welcome! If you have a feature request, bug report, or pull request, please feel free to open an issue or submit a PR.
+
+Support
+If you encounter any problems, please open an issue. For updates and discussions, follow the repository.
