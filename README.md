@@ -1,4 +1,6 @@
 # Nuitka-GUI-with-Embedded-AI-Error-Diagnostics
+![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)
 Taran Build Master is a professional desktop application that provides a graphical user interface for compiling Python scripts into standalone Windows executables using Nuitka. It integrates a pre‑trained machine learning model (39 error classes) that automatically detects compilation failures and suggests – or even applies – corrective measures
 "Enjoying this project? Buy me a coffee 🚀"
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?hosted_button_id=S4AH7LV44BT9N)
