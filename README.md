@@ -46,11 +46,7 @@ Unicode Path Defender – automatically redirects temp directories when Cyrillic
 Smart log decoding – handles CP1251/CP866 encodings to avoid corrupted UTF‑8 output.
 
 No black console window – final .exe runs as a pure GUI application.
-
-## 💻 OS Compatibility & System Requirements
-
-This application is specifically designed and optimized for the **Windows** ecosystem, as it focuses on generating standalone Windows executables (`.exe`).
-
+ 
 ## 💻 OS Compatibility & System Requirements
 
 This application is specifically designed and optimized for the **Windows** ecosystem, as it focuses on generating standalone Windows executables (`.exe`).
