@@ -1,0 +1,8 @@
+nuitka
+tkinter
+pystray
+Pillow
+scikit-learn
+numpy
+scipy
+joblib
