@@ -978,7 +978,29 @@ class TaranBuildMaster:
             return None
         working_dir = os.path.dirname(script_path)
         script_name = os.path.basename(script_path)
-        cmd = [sys.executable, "-u", "-m", "nuitka"]
+
+        # Hybrid Python interpreter detection strategy
+        if getattr(sys, 'frozen', False):
+            # 1. Check if global Python is available in the system PATH
+            if shutil.which("python"):
+                python_exe = "python"
+            else:
+                # 2. If not, look for a local portable Python environment adjacent to the .exe
+                exe_dir = os.path.dirname(sys.executable)
+                portable_path = os.path.join(exe_dir, "python_portable", "python.exe")
+
+                if os.path.exists(portable_path):
+                    python_exe = portable_path
+                else:
+                    # 3. Fallback to system command if everything else fails
+                    python_exe = "python"
+        else:
+            # Standard execution within an IDE / development environment
+            python_exe = sys.executable
+
+        # Construct the base Nuitka compilation command
+        cmd = [python_exe, "-u", "-m", "nuitka"]
+
         if self.standalone_var.get():
             cmd.append("--standalone")
         if self.onefile_var.get():
@@ -1220,6 +1242,7 @@ class TaranBuildMaster:
 
 
 if __name__ == "__main__":
+    multiprocessing.freeze_support()
     root = tk.Tk()
     app = TaranBuildMaster(root)
     root.mainloop()
